@@ -1,6 +1,6 @@
 [custom]
 ;不要随意改变关键字，否则会导致出错
-;自用的模板，2025年4月18日09:11:18
+;自用的模板，2025年4月18日09:22:28
 
 ;去广告：no
 ;自动测速：支持
@@ -10,6 +10,11 @@
 ;增强国外GFW：支持
 
 ;设置规则标志位
+;自己定义的规则
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/lastSilverBullet/ACL4SSR/refs/heads/main/myConfigDirect.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/lastSilverBullet/ACL4SSR/refs/heads/main/myConfigProxy.list
+
+;抄的规则
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
